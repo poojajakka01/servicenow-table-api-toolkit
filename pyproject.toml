@@ -19,3 +19,6 @@ packages = ["snow_toolkit"]
 
 [tool.ruff]
 line-length = 115
+
+[tool.ruff.lint]
+select = ["E", "F"]
